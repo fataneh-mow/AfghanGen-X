@@ -25,6 +25,21 @@ body {
     text-shadow: 2px 2px #49494975;
 }
 
+@keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.hero-section{
+    animation: fadeUp 1.5s ease-in-out;
+}
+
 .info-part {
     margin-top: 1rem;
     background-color: #a8aed8bb;
